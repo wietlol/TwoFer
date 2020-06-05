@@ -19,6 +19,10 @@ import me.wietlol.exercism.twofor.interfaces.factories.InputFactory
 
 object Main
 {
+	// version 1 ... didn't pass the enterprise test
+//	fun twoFer(input: String): String =
+//		"One for ${if (input.isEmpty()) "you" else input}, one for me."
+	
 	// version 2 ... works as intended
 	fun twoFer(input: String): String
 	{
@@ -53,10 +57,6 @@ object Main
 		
 		return result
 	}
-	
-	// version 1 ... didn't pass the enterprise test
-//	fun twoFer(input: String): String =
-//		"One for ${if (input.isEmpty()) "you" else input}, one for me."
 	
 	@JvmStatic
 	fun main(args: Array<String>)
