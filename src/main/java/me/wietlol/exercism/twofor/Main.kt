@@ -56,7 +56,7 @@ object Main
 	
 	// version 1 ... didn't pass the enterprise test
 //	fun twoFer(input: String): String =
-//		"One for ${if (input.isEmpty()) input else "you"}, one for me."
+//		"One for ${if (input.isEmpty()) "you" else input}, one for me."
 	
 	@JvmStatic
 	fun main(args: Array<String>)
